@@ -121,11 +121,11 @@
     <div style="background-color:rgba(0,0,0,.81);">
     <div class="container-fluid">
 
-        <div class="row">
+        <div class="row" style="min-height: 80%;">
             <div class="col-xs-12 col-sm-8" style="padding-left: 5%">
                 <h1>Image Recognition</h1>
 
-                <div class="userInterface col-sm-8 col-xs-12">
+                <div class="userInterface col-sm-8 col-xs-8">
                     Enter the URL to an image of an image you want to analyze, the click the <strong>Analyze image</strong> button.
                     <br><br>
                     Image to analyze:
@@ -171,7 +171,8 @@
                     </div>
                 </div>
 
-            <div id="resp" style="display: none">
+
+            <div id="resp" class="row col-sm-12 col-xs-12" style="display: none">
                 <div class="row container" style="font-weight: bold;">
 
                 <span style="color: white;">Result: &nbsp;&nbsp;&nbsp;&nbsp;</span>
