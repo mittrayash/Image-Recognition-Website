@@ -171,7 +171,7 @@
                     </div>
                 </div>
 
-
+            <div id="resp" style="display: none">
                 <div class="row container" style="font-weight: bold;">
 
                 <span style="color: white;">Result: &nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -185,7 +185,8 @@
                     <span style="color: white;" id="confidenc"></span>
                 </div>
             </div>
-            <div class="col-sm-4 col-xs-12" style="padding-right: 5%; padding-top:60px;">
+            </div>
+            <div class="col-sm-4 col-xs-12" id="showImage" style="padding-right: 5%; padding-top:60px; display: none;">
                 <div class="imageDiv">
                     <span style="color: black !important; font-family: 'Copperplate Gothic Lightrial Rounded MT Bold'; font-weight: 700">Source image:</span><br>
                     <span id="captionSpan"></span><br>
@@ -292,9 +293,14 @@
 
                         if (caption.text && caption.confidence) {
 
+                            showImg = document.getElementById("showImg");
+                            resp = document.getElementById("resp");
                             rs = document.getElementById("resultt");
                             cd = document.getElementById("confidenc")
-                            rs.innerHTML = caption.text  ;
+
+                            showImg.style.display = block;
+                            resp.style.display = block;
+                            rs.innerHTML = caption.text;
                             cd.innerHTML = caption.confidence;
                             console.log(caption.text)
                         }
