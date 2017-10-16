@@ -293,7 +293,7 @@
 
                         if (caption.text && caption.confidence) {
 
-                            showImg = document.getElementById("showImg");
+                            showImg = document.getElementById("showImage");
                             resp = document.getElementById("resp");
                             rs = document.getElementById("resultt");
                             cd = document.getElementById("confidenc")
