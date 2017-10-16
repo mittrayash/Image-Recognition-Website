@@ -298,8 +298,8 @@
                             rs = document.getElementById("resultt");
                             cd = document.getElementById("confidenc")
 
-                            showImg.style.display = block;
-                            resp.style.display = block;
+                            showImg.style.display = "block";
+                            resp.style.display = "block";
                             rs.innerHTML = caption.text;
                             cd.innerHTML = caption.confidence;
                             console.log(caption.text)
