@@ -159,7 +159,7 @@
                                 name="subscriptionKeyInput"
                                 id="subscriptionKeyInput"
                                 onchange="common.subscriptionChange()"
-                                value="8bbac6ff47b944e2934d03d1b09fb585" />
+                                value="9c0c85ebe57241f688643434dc9a1a93" />
                         Subscription Region:
                         <select name="subscriptionRegionSelect" id="subscriptionRegionSelect" onchange="common.subscriptionChange()">
                             <option value="westcentralus">westcentralus</option>
